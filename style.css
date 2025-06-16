@@ -411,6 +411,24 @@
     font-size: 1.3rem;
   }
 
+  #breakfast {
+    background: url('menu-covers/breakfast.jpg') center/cover no-repeat;
+    color: #ffffff;
+    height: 117vh;
+  }
+
+  #lunch {
+    background: url('menu-covers/lunch.jpg') center/cover no-repeat;
+    color: #ffffff;
+    height: 117vh;
+  }
+
+  #dinner {
+    background: url('menu-covers/dinner.png') center/cover no-repeat;
+    color: #ffffff;
+    height: 117vh;
+  }
+
   .starttitle {
     margin-top: 100px;
   }
