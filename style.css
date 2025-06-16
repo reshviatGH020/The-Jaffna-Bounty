@@ -88,7 +88,7 @@
   #breakfast {
     background: url('menu-covers/breakfast.jpg') center/cover no-repeat;
     color: #ffffff;
-    height: 80vh;
+    height: 85vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -99,7 +99,7 @@
   #lunch {
     background: url('menu-covers/lunch.jpg') center/cover no-repeat;
     color: #ffffff;
-    height: 80vh;
+    height: 82vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -110,7 +110,7 @@
   #dinner {
     background: url('menu-covers/dinner.png') center/cover no-repeat;
     color: #ffffff;
-    height: 80vh;
+    height: 87vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -319,6 +319,24 @@
     padding-left: 105px;
   }
 
+  .prev-btn {
+      background-color: #ff704d;
+      color: white;
+      padding: 10px 8px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+  
+    .next-btn {
+      background-color: #ff704d;
+      color: white;
+      padding: 10px 8px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
 
 /* RESPONSIVE */
 
@@ -411,22 +429,22 @@
     font-size: 1.3rem;
   }
 
-  #breakfast {
+   #breakfast {
     background: url('menu-covers/breakfast.jpg') center/cover no-repeat;
     color: #ffffff;
-    height: 117vh;
+    height: 130vh;
   }
 
   #lunch {
     background: url('menu-covers/lunch.jpg') center/cover no-repeat;
     color: #ffffff;
-    height: 117vh;
+    height: 239vh;
   }
 
   #dinner {
     background: url('menu-covers/dinner.png') center/cover no-repeat;
     color: #ffffff;
-    height: 117vh;
+    height: 255vh;
   }
 
   .starttitle {
@@ -488,6 +506,26 @@
     width: 300px;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     text-align: center;
+  }
+
+  .prev-btn {
+    background-color: #ff704d;
+    color: white;
+    padding: 10px 8px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: -1px;
+    font-weight: bold;
+  }
+
+  .next-btn {
+    background-color: #ff704d;
+    color: white;
+    padding: 10px 8px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: -1px;
+    font-weight: bold;
   }
 
   .about {
@@ -597,6 +635,24 @@
     background-position: center center;
   }
 
+  #breakfast {
+    background: url('menu-covers/breakfast.jpg') center/cover no-repeat;
+    color: #ffffff;
+    height: 108vh;
+  }
+
+  #lunch {
+    background: url('menu-covers/lunch.jpg') center/cover no-repeat;
+    color: #ffffff;
+    height: 108vh;
+  }
+
+  #dinner {
+    background: url('menu-covers/dinner.png') center/cover no-repeat;
+    color: #ffffff;
+    height: 111vh;
+  }
+
   .hero-content h2 {
     font-size: 2.2rem;
   }
@@ -662,6 +718,24 @@
 
   .td-right {
     font-size: 10px;
+  }
+
+  .prev-btn {
+    background-color: #ff704d;
+    color: white;
+    padding: 10px 8px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+  .next-btn {
+    background-color: #ff704d;
+    color: white;
+    padding: 10px 8px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
   }
 
   .footer-container {
